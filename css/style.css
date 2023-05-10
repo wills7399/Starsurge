@@ -21,21 +21,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
-    position: fixed;
+    position: sticky;
     top: 0;
     background: grey;
     z-index: 999;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    bottom: 0;
-    height: 60px;
-    padding: 0 5rem;
-    background-color: grey;
-    width: 100%;
-    max-width: 700px;
 }
 
 /* SCREEN 2 */
