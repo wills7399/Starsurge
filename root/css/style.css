@@ -2,6 +2,7 @@
 
 body {
   margin: 0;
+  font-family: 'Baloo 2', cursive;
 }
 
 p {
@@ -49,6 +50,7 @@ button#explore-btn {
   border: none;
   border-radius: 10px;
   padding: 0.5em 2em;
+  font-family: 'Baloo 2', cursive;
 }
 
 .exploreCta {
@@ -83,7 +85,7 @@ button#explore-btn:hover {
   align-items:center ;
   justify-content: space-between;
   background-color: #A7AFC7;
-  padding: 0 0.5rem;
+
 }
 
 .header img {
@@ -115,7 +117,6 @@ button#explore-btn:hover {
   display: flex;
   align-items: center;
   margin-bottom: 50px;
-
 }
 
 #button-container {
@@ -130,12 +131,12 @@ button#book-now-btn {
   color: black;
   font-size: 32px;
   padding: 6px 14px;
-  font-family: Playfair Display, sans-serif;
+  font-family: 'Playfair Display', serif;
   border: none;
   border-radius: 10px;
   margin-bottom: 30px;
-  font-family: 'Playfair Display', serif;
   text-align: left;
+  font-family: 'Baloo 2', cursive;
 }
 
 
@@ -181,6 +182,7 @@ button#book-now-btn:hover {
   border: none;
   border-radius: 10px;
   padding: 0.5em 2em;
+  font-family: 'Baloo 2', cursive;
 }
 
 #explore-page button#book-now:hover {
@@ -200,11 +202,10 @@ button#book-now-btn:hover {
   color: black;
   font-size: 32px;
   padding: 6px 14px;
-  font-family: Playfair Display, sans-serif;
+  font-family: 'Baloo 2', cursive;
   border: none;
   border-radius: 10px;
   margin-bottom: 30px;
-  font-family: 'Playfair Display', serif;
   text-align: left;
   margin-bottom: 60px;
 
@@ -215,11 +216,10 @@ background-color: #7165B9;
 color: black;
 font-size: 32px;
 padding: 6px 14px;
-font-family: Playfair Display, sans-serif;
+font-family: 'Baloo 2', cursive;
 border: none;
 border-radius: 10px;
 margin-bottom: 30px;
-font-family: 'Playfair Display', serif;
 text-align: left;
 margin-bottom: 60px;
 }
@@ -311,10 +311,9 @@ background-color: #7165B9;
 color: black;
 font-size: 32px;
 padding: 6px 14px;
-font-family: Playfair Display, sans-serif;
+font-family: 'Baloo 2', cursive;
 border: none;
 margin-bottom: 10px;
-font-family: 'Playfair Display', serif;
 text-align: left;
 margin-left: -73%;
 margin-top: 50px;
@@ -330,10 +329,9 @@ background-color: #7165B9;
 color: black;
 font-size: 32px;
 padding: 6px 14px;
-font-family: Playfair Display, sans-serif;
+font-family: 'Baloo 2', cursive;
 border: none;
 margin-bottom: 10px;
-font-family: 'Playfair Display', serif;
 text-align: left;
 margin-left: -65%;
 margin-top: 50px;
@@ -344,10 +342,9 @@ background-color: #7165B9;
 color: black;
 font-size: 32px;
 padding: 6px 14px;
-font-family: Playfair Display, sans-serif;
+font-family: 'Baloo 2', cursive;;
 border: none;
 margin-bottom: 10px;
-font-family: 'Playfair Display', serif;
 text-align: left;
 margin-left: -76%;
 margin-top: 50px;
@@ -358,10 +355,9 @@ background-color: #7165B9;
 color: black;
 font-size: 32px;
 padding: 6px 14px;
-font-family: Playfair Display, sans-serif;
+font-family: 'Baloo 2', cursive;
 border: none;
 margin-bottom: 10px;
-font-family: 'Playfair Display', serif;
 text-align: left;
 margin-left: -70%;
 margin-top: 50px;
@@ -372,10 +368,9 @@ background-color: #7165B9;
 color: black;
 font-size: 32px;
 padding: 6px 14px;
-font-family: Playfair Display, sans-serif;
+font-family: 'Baloo 2', cursive;
 border: none;
 margin-bottom: 10px;
-font-family: 'Playfair Display', serif;
 text-align: left;
 margin-left: -68%;
 margin-top: 50px;
@@ -386,10 +381,9 @@ background-color: #7165B9;
 color: black;
 font-size: 32px;
 padding: 6px 14px;
-font-family: Playfair Display, sans-serif;
+font-family: 'Baloo 2', cursive;
 border: none;
 margin-bottom: 10px;
-font-family: 'Playfair Display', serif;
 text-align: left;
 margin-left: -65%;
 margin-top: 50px;
@@ -456,6 +450,7 @@ h4{
   margin: 0 auto;
   display: block;
   margin-bottom: -50px;
+  font-family: 'Baloo 2', cursive;
 }
 
 #book-button:hover {
@@ -612,6 +607,7 @@ margin-bottom: 200px;
   margin: 0 auto;
   display: block;
   margin-top: -100px;
+  font-family: 'Baloo 2', cursive;
   }
 
   #book-button1:hover{
