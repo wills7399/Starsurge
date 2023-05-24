@@ -1,68 +1,213 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Star Surge
-    </title>
-    <link rel="stylesheet" href="css/style.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap" rel="stylesheet">
+    <title>My App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-
-    <header>
-        <div>LOGO</div>
-    </header>
-
-    <div>
-
-        <main>
-            <!-- SCREEN 1 -->
-            <section class="screen-1" id="heroImage" >
-                <div>
-                    <h1>Star Surge</h1>
-                    <h1>Solar Travel</h1>
-                </div>
-                <div class="heroCta">
-                    <a href="" class="cta">Explore</a>
-                </div>
-            </section>
-
-            <!-- SCREEN 2 -->
-            <section id="screen-2" class="container">
-                <h1>Home</h1>
-                <p>Starsurge is the premier interstellar travel provider. We allow you to choose what planet in the solar system you would like to visit and let you choose what spaceship to fit your needs. </p>
-            </section>
-
-            <!-- SCREEN 3 -->
-            <section id="screen-3" class="container">
-                <h3>Screen 3</h3>
-                <p>This is the Third screen's content</p>
-            </section>
-
-        </main>
+    <div id="splash">
+        <img src="space.jpg" alt="Space">
+        <div id="content">
+            <h1>StarSurge</h1>
+            <h2>Solar Travel</h2>
+            <button id="explore-btn">Explore</button>
+        </div>
     </div>
-
-    <nav>
-        <div class="nav-item button-1">
-            <span>Home</span>
-        </div>
-        <div class="nav-item button-2">
-            <span>Planets</span>
-        </div>
-        <div class="nav-item button-3">
-            <span>Scapeships</span>
-        </div>
-        <div class="nav-item button-4">
-            <img src="img/shopping-cart.png" alt="">
-        </div>
-    </nav>
-	
-	<script src="js/script.js"></script>
+    <div id="explore-container">
+        <a href="#" class="back-btn"></a>
+        <div id="explore">
+            <h1 id="explore-heading">StarSurge</h1>
+            <p>Starsurge is the premier interstellar travel provider. We allow you to choose what planet in the solar system you would like to visit and let you choose what spaceship to fit your needs.</p>
+            <div id="button-container">
+                <button id="book-now-btn">Book now</button>
+            </div>
+            <img src="planets.jpg" alt="Your Image">
+            <p>We travel to all the 7 recognized planets in our solar system. Each planet has its unique look and characteristics.</p>
+            <div id="button-container">
+                <button id="learn-more-btn">Learn more</button>
+            </div>
+            <img src="spaceships.jpg" alt="Your Image">
+            <p>Pick from 3 different spaceships that provide all that you will need depending on your destination and the capacity needed.</p>
+            <div id="button-container">
+                <button id="learn-more-btn2">Learn more</button>
+            </div>
+            <nav class="bottom-navbar">
+                <a href="#" class="home1">Home</a>
+                <a href="#" class="planets1">Planets</a>
+                <a href="#">Spaceships</a>
+                <a href="#" class="cart-icon"><img src="cart.png" alt="Cart"></a>
+            </nav>
     
+
+        </div>
+    </div>
+	<div id="book-now-page" style="display:none;">
+		<div id="explore">
+			<h1 id="explore-heading">StarSurge</h1>
+			<h3>Planets</h3>
+			<div id="button-container1">
+				<div>
+					<button id="venus">Venus</button>
+				</div>
+				<div>
+					<img src="venus.png" alt="Your Image">
+				</div>
+			</div>
+			<div id="button-container1">
+				<div>
+					<button id="learn-more-btn4">Mercury</button>
+				</div>
+				<div>
+					<img src="mercury.jpg" alt="Your Image">
+				</div>
+			</div>
+			<div id="button-container1">
+				<div>
+					<button id="learn-more-btn5">Mars</button>
+				</div>
+				<div>
+					<img src="mars.png" alt="Your Image">
+				</div>
+			</div>
+			<div id="button-container1">
+				<div>
+					<button id="learn-more-btn6">Jupiter</button>
+				</div>
+				<div>
+					<img src="jupiter.jpg" alt="Your Image">
+				</div>
+			</div>
+			<div>
+				<button id="learn-more-btn6">Saturn</button>
+			</div>
+			<div>
+				<img src="saturn.jpg" alt="Your Image">
+			</div>
+			<div>
+				<button id="learn-more-btn7">Uranus</button>
+			</div>
+			<div>
+				<img src="uranus.jpg" alt="Your Image">
+			</div>
+			<div>
+				<button id="learn-more-btn8">Neptune</button>
+			</div>
+			<div>
+				<img id="test" src="neptune.jpg" alt="Your Image">
+			</div>
+			<nav class="bottom-navbar">
+                <a href="#" class="home2">Home</a>
+                <a href="#" class="planets2">Planets</a>
+                <a href="#">Spaceships</a>
+                <a href="#" class="cart-icon"><img src="cart.png" alt="Cart"></a>
+            </nav>
+
+
+		</div>
+		</div>
+
+
+<div id="info-page" style="display:none;">
+  <div id="explore">
+    <h1 id="explore-heading">StarSurge</h1>
+    <div>
+      <h4>Venus</h4>
+    </div>
+    <div>
+      <img src="venus.png" alt="Your Image">
+    </div>
+    <div id="blocks-container">
+      <div class="block">
+        <span class="icon-label">Wi-Fi</span>
+        <img src="wifi.png" alt="Icon 1">
+      </div>
+      <div class="block">
+        <span class="icon-label">Hotel</span>
+        <img src="hotel.png" alt="Icon 2">
+      </div>
+      <div class="block">
+        <span class="icon-label">Restaurants</span>
+        <img src="food.png" alt="Icon 3">
+      </div>
+      <div class="block">
+        <span class="icon-label">Tourism</span>
+        <img src="camera.png" alt="Icon 4">
+      </div>
+    </div>
+    <p>Experience the adventure of a lifetime and journey to the Red Planet with our state-of-the-art Mars flight! As the first commercial space travel provider to offer flights to Mars, we're excited to give you the opportunity to be a part of history and make your mark on the universe.</p>
+
+	
+	<button id="book-button">Book a trip</button>
+    <nav class="bottom-navbar">
+      <a href="#" class="home3">Home</a>
+      <a href="#" class="planets3">Planets</a>
+      <a href="#">Spaceships</a>
+      <a href="#" class="cart-icon"><img src="cart.png" alt="Cart"></a>
+    </nav>
+  </div>
+</div>
+
+<div id="checkout" style="display:none;">
+	<div id="explore">
+	  <h1 id="explore-heading">StarSurge</h1>
+	  <h3>
+		<img src="back-button.png" id="back-button" class="back" alt="">
+
+		<img src="cart1.png" alt="cart icon">
+		My Cart
+	  </h3>
+	  
+	  <div class="checkout-box">
+		<img src="mars.png" alt="mars image" class="mars-image">
+		<form>
+			<!-- <label for="fname">First name:</label> -->
+			<input type="text" id="fname" name="fname" placeholder="First name">
+			<input type="text" id="email" name="email" placeholder="email">
+		</form>
+
+		<div class="checkout-text2">Ship - X-18 Argonaut</div>
+		<div class="checkout-text3">Colour: - </div>
+
+		
+
+	  </div>
+	  <div class="checkout-box">
+		<div class="checkout-text4">Aberdeen ------ <img src="rocket.png" alt="rocket icon"> ------ Mars</div>
+		<div class="checkout-text4-date">22/05/2023</div>
+		<div class="checkout-text4-date2">05/05/2032 - </div>
+
+	</div>
+
+	<div class="checkout-box">
+		<div class="total">Subtotal: £1088.00</div>
+		<div class="total1">Discount: 10%</div>
+		<div class="total2">Total $1200.00</div>
+		<button id="book-button1">Book a trip</button>
+
+	</div>
+	
+	
+		<nav class="bottom-navbar">
+			<a href="#" class="home4">Home</a>
+			<a href="#" class="planets4">Planets</a>
+			<a href="#">Spaceships</a>
+			<a href="#" class="cart-icon"><img src="cart.png" alt="Cart"></a>
+		</nav>
+	</div>
+
+</div>
+
+
+
+</div>
+
+
+	      
+    <script src="app.js"></script>
 </body>
 </html>
