@@ -51,6 +51,13 @@ button#explore-btn {
   padding: 0.5em 2em;
 }
 
+.exploreCta {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
 button#explore-btn:hover {
   background-color: #A020F0;
   color: #fff;
@@ -71,6 +78,17 @@ button#explore-btn:hover {
   transform: translate(-50%, 0);
 }
 
+.header {
+  display: flex;
+  align-items:center ;
+  justify-content: space-between;
+  background-color: #A7AFC7;
+  padding: 0 0.5rem;
+}
+
+.header img {
+  padding: 0.3rem;
+}
 #explore-heading {
   margin-top: 0;
 }
