@@ -216,7 +216,7 @@ color: #fff;
 
 /* Style for the bottom navbar */
 .bottom-navbar {
-position: fixed;
+position: sticky;
 bottom: 0;
 width: 100%;
 background-color: black;
@@ -597,6 +597,6 @@ margin-bottom: 200px;
   #email {
     position: relative;
     top: -50px;
-    left: -27px;
+    left: -34px;
   }
   
