@@ -55,6 +55,41 @@ $(document).ready(function() {
     $("#info-page").hide();
     $("#checkout").show(); 
   });
+
+  $(".planets1").click(function() {
+    $("#explore-container").hide();
+    $("#book-now-page").show(); 
+  });
+
+  $(".planets3").click(function() {
+    $("#info-page").hide();
+    $("#book-now-page").show(); 
+  });
+
+  $(".planets3").click(function() {
+    $("#info-page").hide();
+    $("#book-now-page").show(); 
+  });
+
+  $(".planets4").click(function() {
+    $("#checkout").hide();
+    $("#book-now-page").show(); 
+  });
+
+  $(".cart-icon").click(function() {
+    $("#explore-container").hide();
+    $("#checkout").show(); 
+  });
+
+  $(".cart-icon").click(function() {
+    $("#book-now-page").hide();
+    $("#checkout").show(); 
+  });
+
+  $(".cart-icon").click(function() {
+    $("#info-page").hide();
+    $("#checkout").show(); 
+  });
 });
 
 
