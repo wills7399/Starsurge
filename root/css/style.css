@@ -52,7 +52,8 @@ button#explore-btn {
 }
 
 button#explore-btn:hover {
-  background-color: #f00;
+  background-color: #A020F0;
+  color: #fff;
 }
 
 #explore-container {
@@ -121,7 +122,8 @@ button#book-now-btn {
 
 
 button#book-now-btn:hover {
-  background-color: #f00;
+  background-color: #282828;
+  color: #fff;
 }
 
 /* Explore page */
@@ -164,7 +166,8 @@ button#book-now-btn:hover {
 }
 
 #explore-page button#book-now:hover {
-  background-color: #f00;
+  background-color: #282828;
+  color: #fff;
 }
 
 #explore-container p {
@@ -297,6 +300,11 @@ font-family: 'Playfair Display', serif;
 text-align: left;
 margin-left: -73%;
 margin-top: 50px;
+}
+
+#venus:hover{
+    background-color: #282828;
+    color: #fff;
 }
 
 #learn-more-btn4 {
@@ -432,6 +440,10 @@ h4{
   margin-bottom: -50px;
 }
 
+#book-button:hover {
+  background-color: #282828;
+  color: #fff;
+}
 
 
 #info-page p{
