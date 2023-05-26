@@ -10,6 +10,7 @@ p {
   font-size: 10px;
 }
 #splash {
+  margin: 0 auto;
   height: 100vh;
   max-width: 700px;
   display: flex;
@@ -85,18 +86,20 @@ button#explore-btn:hover {
   display: flex;
   align-items:center ;
   justify-content: space-between;
-  background-color: #A7AFC7;
+  background-color: #1F2533;
   width: 100%;
-  margin: 0;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
-.header img {
-  padding: 0.3rem 1rem;
-  width: 100px;
+#headerLogo {
+  width: 150px;
+  padding: 0.5rem;
 }
-#explore-heading {
-  padding: 0.3rem 0;
-  margin-top: 0;
+
+#headerBack {
+  width: 50px;
+  padding: 1rem 0 1rem 2rem;
 }
 
 #explore img {
