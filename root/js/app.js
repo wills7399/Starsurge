@@ -45,11 +45,6 @@ $(document).ready(function() {
     $("#info-page").show(); 
   });
 
-  $("#back-button").click(function() {
-    $("#checkout").hide();
-    $("#info-page").show(); 
-});
-
   
   $("#book-button").click(function() {
     $("#info-page").hide();
@@ -90,8 +85,22 @@ $(document).ready(function() {
     $("#info-page").hide();
     $("#checkout").show(); 
   });
+
+
+  $("#back-button-1").click(function() {
+    $("#book-now-page").hide();
+    $("#explore-container").show(); 
+  });
+
+  $("#back-button-2").click(function() {
+    $("#info-page").hide();
+    $("#book-now-page").show(); 
+  });
+
+  $("#back-button-3").click(function() {
+    $("#checkout").hide();
+    $("#info-page").show(); 
+  });
+
 });
-
-
-
 
