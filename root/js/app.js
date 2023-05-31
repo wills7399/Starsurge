@@ -40,7 +40,7 @@ $(document).ready(function() {
     $("#book-now-page").show(); 
   });
 
-  $("#venus").click(function() {
+  $(".showPlanet").click(function() {
     $("#book-now-page").hide();
     $("#info-page").show(); 
   });

@@ -1,5 +1,11 @@
 /* First page */
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: 'Baloo 2', cursive;
@@ -12,7 +18,7 @@ p {
 #splash {
   margin: 0 auto;
   height: 100vh;
-  max-width: 700px;
+  max-width: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -74,20 +80,22 @@ button#explore-btn:hover {
 #explore {
   margin: 0 auto;
   width: 100%;
-  max-width: 700px;
+  max-width: 500px;
   text-align: center;
   position: relative;
   top: 0;
 }
 
 .header {
+  position: fixed;
   display: flex;
   align-items:center ;
   justify-content: space-between;
   background-color: #1F2533;
   width: 100%;
-  max-width: 700px;
+  max-width: 500px;
   margin: 0 auto;
+  z-index: 99;
 }
 
 #headerLogo {
@@ -96,8 +104,12 @@ button#explore-btn:hover {
 }
 
 .headerBack {
-  width: 50px;
+  width: 75px;
   padding: 1rem 0 1rem 2rem;
+}
+
+.spacer {
+  height: 200px;
 }
 
 #explore img {
@@ -112,10 +124,12 @@ button#explore-btn:hover {
 }
 
 #explore p {
-  font-size: 1.5em;
+  font-size: 1.2rem;
   margin-bottom: 0.5em;
   text-align: left;
   margin-left: 2px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   padding: 0 1rem;
 }
 
@@ -135,7 +149,7 @@ button#explore-btn:hover {
 button#book-now-btn {
   background-color: #7165B9;
   color: black;
-  font-size: 32px;
+  font-size: 30px;
   padding: 6px 14px;
   font-family: 'Playfair Display', serif;
   border: none;
@@ -178,7 +192,7 @@ button#book-now-btn:hover {
 }
 
 #explore-page p {
-  font-size: 1.5em;
+  font-size: 1.2rem;
   margin-bottom: 0.5em;
 }
 
@@ -198,7 +212,7 @@ button#book-now-btn:hover {
 }
 
 #explore-container p {
-  font-size: 1.5em;
+  font-size: 1.2rem;
   margin-bottom: 0.5em;
   color: #000;
 }
@@ -207,7 +221,7 @@ button#book-now-btn:hover {
 #learn-more-btn {
   background-color: #7165B9;
   color: black;
-  font-size: 32px;
+  font-size: 30px;
   padding: 6px 14px;
   font-family: 'Baloo 2', cursive;
   border: none;
@@ -222,7 +236,7 @@ button#book-now-btn:hover {
 #learn-more-btn2 {
 background-color: #7165B9;
 color: black;
-font-size: 32px;
+font-size: 30px;
 padding: 6px 14px;
 font-family: 'Baloo 2', cursive;
 border: none;
@@ -274,7 +288,6 @@ color: white;
 }
 
 .bottom-navbar a {
-margin: 0 15px;
 text-decoration: none;
 color: inherit;
 font-size: 18px;
@@ -411,8 +424,10 @@ margin-bottom: 80px;
 
 #blocks-container {
 display: flex;
+align-items: center;
 justify-content: space-between;
 margin-top: 20px;
+background-color: #D3D3D3;
 }
 
 .block {
@@ -423,8 +438,7 @@ background-color: #D3D3D3;
 }
 
 .block img {
-width: 130x;
-height: 80px;
+width: 50%;
 }
 
 .icon-label {
@@ -472,13 +486,16 @@ h4{
 margin-bottom: 200px;
 }
 
-
+#info-page h4{
+  margin-bottom: 50px;
+}
 
 
 #explore h3 {
   text-align: left;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 #explore h3 img {
@@ -491,7 +508,7 @@ margin-bottom: 200px;
   background-color: #DFDFDF;
   margin: 0 auto;
   height: 250px;
-  max-width: 700px;
+  max-width: 500px;
   width: 90%;
   border-radius: 25px;
   display: flex;
@@ -527,7 +544,7 @@ margin-bottom: 200px;
   align-items: center;
   justify-content: center;
   width: 90%;
-  max-width: 700px;
+  max-width: 500px;
   margin: 2rem auto 0;
 }
 
@@ -557,14 +574,13 @@ margin-bottom: 200px;
 }
 
 
-.checkout-box + .checkout-box {
+/* .checkout-box + .checkout-box {
   margin-bottom: 200px;
   
-}
+} */
 
 .checkout-text4{
   position: absolute;
-  left: 15%;
   top: 20%;
   transform: translateY(-50%);
   padding: 10px;
@@ -627,12 +643,9 @@ margin-bottom: 200px;
   border: none;
   border-radius: 20px;
   position: relative;
-  top: 240px;
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  display: block;
-  margin-top: -100px;
+  width: 90%;
+  max-width: 500px;
+  margin: 2rem auto;
   font-family: 'Baloo 2', cursive;
   }
 
